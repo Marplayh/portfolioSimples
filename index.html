@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Márcio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!--<script src="jquery-3.6.0.min.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+    <script src="https://kit.fontawesome.com/4f4eb8e271.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark nav-transparente fixed-top border-bottom border-danger">
+            <div class="container">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <i class="fas fa-bars text-white"></i>
+                  </button>
+                <div class="collapse navbar-collapse menu" id="nav-principal">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ini">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link proj">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link sobre">Sobre</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 flex">
+                    <div class="aling-self-center">
+                        <h1 class="text-danger text-center">Olá, eu sou o <span class="letrao"><b>M</b></span><span><b>árcio</b></span></h1>
+                        <p class="text-danger text-center">Estou estudando engenharia de software e tenho conhecimento em algumas linguagens e frameworks.</p>
+                        <div>
+                            <i class="fa-brands fa-js itens"></i>
+                            <i class="fa-brands fa-css3-alt itens"></i>
+                            <i class="fa-brands fa-php itens"></i>
+                            <i class="fa-brands fa-bootstrap itens"></i>
+                            <i class="fa-solid fa-database itens"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="imagens/euzin.jpg" class="minha-imagem">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="d-flex flex-column">
+            <h1 class="text-danger text-center">Projetos</h1>
+            <div class="container align-self-center">
+                <div class="row">
+                    <div id="carousel-port" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imagens/museu.png" class="img-fluid">
+                                <div class="carousel-caption">
+                                    <p class="text-dark">Projeto Museu</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/mosca.png" class="img-fluid foto1">
+                                <div class="carousel-caption">
+                                    <p>Jogo em javascript</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/spot.png" class="img-fluid">
+                                <div class="carousel-caption">
+                                    <p>Cópia da página inicial do spotify</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/despesa.png" class="img-fluid">
+                                <div class="carousel-caption">
+                                    <p class="text-dark">CRUD de registro de despesas</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#carousel-port" class="carousel-control-prev" data-slide="prev"><i class="fas fa-angle-left fa-3x"></i></a>
+                        <a href="#carousel-port" class="carousel-control-next" data-slide="next"><i class="fas fa-angle-right fa-3x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="theEnd">
+        <ul>
+            <li>
+                <a href="https://github.com/Marplayh"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/marcio-junior-05ba9a239/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li>
+                <a href="mailto:marciobrrj22@gmail.com"><i class="fa-solid fa-at"></i></a>
+            </li>
+        </ul>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>
