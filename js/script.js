@@ -1,3 +1,19 @@
+const items = document.querySelectorAll('.ZZZ');
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        }
+    });
+});
+
+items.forEach(item => {
+    observer.observe(item);
+});
+
+
+
 $(document).ready(() => {
     $(".ini").click(function(e) {
 
@@ -27,6 +43,12 @@ $(document).ready(() => {
             scrollTop: 1500
         }, 1200);
 
+    });
+
+    $('section').each(function(i) {
+        setTimeout(function() {
+            $('section').eq(i).addClass('show');
+        }, 1000 * i);
     });
 
 });
